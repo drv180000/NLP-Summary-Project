@@ -1,5 +1,5 @@
 # NLP Summary Project
-Goal of project is a summarization of given text
+Goal of project is a summarization of given text. Extracts text from a file and writes a summary to a new file.
 
 To use:
 call file in terminal using "python summarize.py filename.extension --model MODEL --max_length MAX_LENGTH --min_length MIN_LENGTH"
@@ -16,4 +16,4 @@ the file contents are then added to the summarize_text() arguments along with th
 summarize_text() uses a pipeline on the given text with an LLM to summarize the text
 the summarized text is then written to a txt file
 
-DEMO: 
+DEMO: https://youtu.be/P9wL3mgWe2E
